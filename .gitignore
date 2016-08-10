@@ -1,3 +1,10 @@
 .DS_Store
 *.swp
 *.un~
+.idea
+bazel-bin
+bazel-dagger-example
+bazel-genfiles
+bazel-out
+bazel-testlogs
+.blaze

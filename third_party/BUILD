@@ -6,6 +6,19 @@ java_import(
 )
 
 java_import(
+    name = "junit4",
+    jars = [
+        "hamcrest/hamcrest-core-1.3.jar",
+        "junit/junit-4.11.jar",
+    ],
+)
+
+java_import(
+    name = "mockito",
+    jars = ["mockito/mockito-all-1.10.19.jar"],
+)
+
+java_import(
     name = "jsr330_inject",
     jars = ["jsr330_inject/javax.inject.jar"],
 )
