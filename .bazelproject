@@ -5,3 +5,6 @@ directories:
 targets:
   //java/coffee/...:all
   //javatests/coffee/...:all
+
+test_sources:
+  javatests/*
