@@ -1,0 +1,7 @@
+directories:
+  java/coffee
+  javatests/coffee
+
+targets:
+  //java/coffee/...:all
+  //javatests/coffee/...:all
