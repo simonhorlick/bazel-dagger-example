@@ -50,6 +50,7 @@ java_library(
 java_plugin(
     name = "dagger_plugin",
     processor_class = "dagger.internal.codegen.ComponentProcessor",
+    generates_api = True,
     deps = [
         ":dagger_api",
         ":dagger_compiler",
